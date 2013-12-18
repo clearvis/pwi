@@ -1,5 +1,15 @@
 @import 'partials/settings';
 
+// Top Nav
+
+.top-bar .name h1 {
+	font-family: 'Allura', cursive;
+}
+
+.top-bar .name h1 span {
+	color: $base-color;
+}
+
 #homepage-hero {
 	background: url(../../img/wave.svg) #ff6b01 -50px -15px;
 	background-size: cover;
