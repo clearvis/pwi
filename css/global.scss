@@ -7,12 +7,22 @@
 	text-align: left;
 	position: relative;
 	padding: 100px 20px 0 20px;
+	
+	a {
+		color: #fff;
+	}
 }
 
 @media screen and (max-width: 64em) {
 	#homepage-hero {
 		height: 500px;
 	}
+}
+
+#watch section {
+	float: left;
+	width: 150px;
+	margin-bottom: 4px;
 }
 
 #homepage-hero .hit-your-mark {
