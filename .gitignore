@@ -4,3 +4,7 @@ dwsync.xml
 
 # Folders to ignore
 video
+
+.sass-cache
+*.zip
+node_modules
