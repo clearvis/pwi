@@ -13,21 +13,16 @@
 #homepage-hero {
 	background: url(../../img/wave.svg) #ff6b01 -50px -15px;
 	background-size: cover;
-	height: 650px;
 	text-align: left;
 	position: relative;
-	padding: 100px 20px 0 20px;
+	padding: 100px 20px 100px 20px;
 	
 	a {
 		color: #fff;
 	}
 }
 
-@media screen and (max-width: 64em) {
-	#homepage-hero {
-		height: 500px;
-	}
-}
+
 
 #watch section {
 	float: left;
@@ -53,12 +48,12 @@
 
 }
 
-.homepage-video {
+/*.homepage-video {
 	width: 40%;
 	position: absolute;
 	right: 100px;
 	top: 100px;
-}
+}*/
 
 @media screen and (max-width: 57.5em) {
 	#homepage-hero .hit-your-mark {
