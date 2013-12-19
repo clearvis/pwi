@@ -1,4 +1,6 @@
-/bower_components/*
-/.sass-cache/*
-*.DS_Store
-/stylesheets/*
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Folders to ignore
+video
