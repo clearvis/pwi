@@ -35,6 +35,10 @@ module.exports = function(grunt) {
 		},
 		
 		watch: {
+			options: {
+				livereload: true,
+			},
+	
 			scripts: {
 				files: ['js/*.js'],
 				tasks: ['concat', 'uglify'],
@@ -42,6 +46,7 @@ module.exports = function(grunt) {
 					spawn: false,
 				},
 			},
+			
 			css: {
 				files: ['css/*.scss'],
 				tasks: ['sass'],
