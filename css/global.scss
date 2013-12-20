@@ -1,5 +1,12 @@
 @import 'partials/settings';
 
+// min-width 1441px Large screen row width
+@media only screen and (min-width: 90.063em) {
+	.row {
+	max-width: 81.25em;
+	}
+} 
+
 // Top Nav
 
 .top-bar .name h1 {
