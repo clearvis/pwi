@@ -24,8 +24,16 @@
 	position: relative;
 	padding: 50px 20px 20px 20px;
 	
-	a {
+	h1, h3, a {
 		color: #fff;
+	}
+	
+	.button { 
+		background: $highlight-color;
+	}
+	
+	.button:hover { 
+		background: $highlight-color_bright;
 	}
 }
 
