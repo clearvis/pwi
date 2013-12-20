@@ -1,5 +1,6 @@
 @import 'partials/settings';
 @import 'partials/foundation';
+@import "font-awesome/font-awesome";
 
 // min-width 1441px Large screen row width
 @media only screen and (min-width: 90.063em) {
@@ -30,6 +31,11 @@
 .top-bar-section ul.left li>a {
 	pointer-events: none;
     cursor: default;
+}
+
+// color Font Awesome Orange
+.fa {
+	color: $base-color;
 }
 
 @media only screen and (min-width: 40.063em) { 
@@ -66,6 +72,7 @@
 
 
 #watch section {
+	color: #fff;
 	float: left;
 	width: 150px;
 	margin-bottom: .25em;
