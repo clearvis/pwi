@@ -15,22 +15,36 @@
 	background-size: cover;
 	text-align: left;
 	position: relative;
-	padding: 100px 20px 100px 20px;
+	padding: 50px 20px 20px 20px;
 	
 	a {
 		color: #fff;
 	}
 }
 
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
+	#homepage-hero {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+} 
 
 
 #watch section {
 	float: left;
 	width: 150px;
-	margin-bottom: 4px;
+	margin-bottom: .25em;
 }
 
-#homepage-hero .hit-your-mark {
+// max-width 640px
+@media only screen and (max-width: 40em) { 
+	#watch {
+		margin-bottom: 2.5em;
+	}
+} 
+
+/*#homepage-hero .hit-your-mark {
 	width: 40%;
 	position: absolute;
 	right: 100px;
@@ -46,7 +60,7 @@
 		font-weight: bold;
 	}
 
-}
+}*/
 
 /*.homepage-video {
 	width: 40%;
