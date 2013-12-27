@@ -9,6 +9,33 @@
 	}
 } 
 
+//Testimonial transition
+
+#testimonials {
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-left: -200px;
+	background: $highlight-color_bright;
+	border-radius: 200px;
+	padding: 100px 40px 0 60px;
+	-webkit-transform: translateY(-500px);
+	transform: translateY(-2500px);
+	-webkit-animation: example 10s ease 1s 2 alternate;
+	z-index: 10;
+	
+	blockquote, blockquote p {
+		color: #fff;
+	}
+}
+
+@-webkit-keyframes example {
+   0% { -webkit-transform: translateY(-500px); }
+   50% { -webkit-transform: translateY(0px); }
+   100% { -webkit-transform: translateY(0px); }
+}
+
 // Top Nav
 
 .top-bar .name {
