@@ -38,6 +38,34 @@
 	color: $base-color;
 }
 
+// Item Number Highlighted
+.drop-cap-number {
+	width: 32px;
+	height: 32px;
+	background: #c6c6c6;
+	margin: 0 14px 14px 0;
+	line-height: 32px;
+	text-align: center;
+	display: block;
+	float: left;
+	border-radius: 16px;
+	font-size: 16px;
+	font-size: 1rem;
+	color: #fff;
+	-webkit-transition: background 300ms ease-out;
+	-moz-transition: background 300ms ease-out;
+	transition: background 300ms ease-out;
+}
+
+.right-block {
+	display: table;
+}
+
+// Hover effect on .drop-cap-number
+.item:hover .drop-cap-number {
+	background: $base-color;
+}
+
 @media only screen and (min-width: 40.063em) { 
 	.top-bar .name h1 { font-size: 2.125rem; }
 }
