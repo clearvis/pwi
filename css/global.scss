@@ -21,9 +21,9 @@
 	border-radius: 100%;
 	padding: 100px 40px 0 60px;
 	-webkit-transform: translateY(-2500px);
-	transform: translateY(-2500px);
+	transform: translateY(-1500px);
 	-webkit-animation: example 15s ease 1s;
-	animation: example 15s linear 1s;
+	animation: example 15s linear 10s;
 	z-index: 10;
 	
 	blockquote, blockquote p {
@@ -39,10 +39,10 @@
 }
 
 @keyframes example {
-   0% { transform: translateY(-2500px); }
+   0% { transform: translateY(-1500px); }
    25% { transform: translateY(0px); }
    50% { transform: translateY(0px); }
-   100% { transform: translateY(-2500px); }
+   100% { transform: translateY(-1500px); }
 }
 
 // Top Nav
