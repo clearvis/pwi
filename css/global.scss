@@ -18,11 +18,12 @@
 	height: 400px;
 	margin-left: -200px;
 	background: $highlight-color_bright;
-	border-radius: 200px;
+	border-radius: 100%;
 	padding: 100px 40px 0 60px;
-	-webkit-transform: translateY(-500px);
+	-webkit-transform: translateY(-2500px);
 	transform: translateY(-2500px);
-	-webkit-animation: example 10s ease 1s 2 alternate;
+	-webkit-animation: example 15s ease 1s;
+	animation: example 15s linear 1s;
 	z-index: 10;
 	
 	blockquote, blockquote p {
@@ -31,9 +32,17 @@
 }
 
 @-webkit-keyframes example {
-   0% { -webkit-transform: translateY(-500px); }
-   50% { -webkit-transform: translateY(0px); }
-   100% { -webkit-transform: translateY(0px); }
+   0% { -webkit-transform: translateY(-2500px); }
+   25% { -webkit-transform: translateY(0px); }
+   75% { -webkit-transform: translateY(0px); }
+   100% { -webkit-transform: translateY(-2500px); }
+}
+
+@keyframes example {
+   0% { transform: translateY(-2500px); }
+   25% { transform: translateY(0px); }
+   50% { transform: translateY(0px); }
+   100% { transform: translateY(-2500px); }
 }
 
 // Top Nav
