@@ -74,6 +74,17 @@
 	color: $base-color;
 }
 
+// Add icon to external links
+	a[href^="http"]:after {
+	content: "\f08e";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+	text-decoration: inherit;
+	padding-left: .25em;
+}
+
 // Item Number Highlighted
 .drop-cap-number {
 	width: 32px;
