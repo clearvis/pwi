@@ -20,11 +20,11 @@
 	background: $highlight-color_bright;
 	border-radius: 100%;
 	padding: 100px 40px 0 60px;
-	-webkit-transform: translateY(-2500px);
+	-webkit-transform: translateY(-1500px);
 	transform: translateY(-1500px);
-	-webkit-animation: example 15s ease 1s;
-	animation: example 15s linear 10s;
-	z-index: 10;
+	-webkit-animation: example 12s ease 5s;
+	animation: example 12s ease 5s;
+	z-index: 100;
 	
 	blockquote, blockquote p {
 		color: #fff;
@@ -32,16 +32,16 @@
 }
 
 @-webkit-keyframes example {
-   0% { -webkit-transform: translateY(-2500px); }
+   0% { -webkit-transform: translateY(-1500px); }
    25% { -webkit-transform: translateY(0px); }
    75% { -webkit-transform: translateY(0px); }
-   100% { -webkit-transform: translateY(-2500px); }
+   100% { -webkit-transform: translateY(-1500px); }
 }
 
 @keyframes example {
    0% { transform: translateY(-1500px); }
-   25% { transform: translateY(0px); }
-   50% { transform: translateY(0px); }
+   25% { transform: translateY(0); }
+   50% { transform: translateY(0); }
    100% { transform: translateY(-1500px); }
 }
 
